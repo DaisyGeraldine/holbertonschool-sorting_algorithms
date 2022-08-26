@@ -13,8 +13,11 @@ void insertion_sort_list(listint_t **list)
 	listint_t *tmp_1 = NULL;
 	listint_t *tmp_2 = NULL;
 
+	if (list == NULL || *list == NULL)
+	{
+		return;
+	}
 	tmp_1 = (*list)->next;
-
 	while (tmp_1 != NULL)
 	{
 		tmp_2 = tmp_1->next;
