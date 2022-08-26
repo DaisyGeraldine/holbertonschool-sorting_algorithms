@@ -1,6 +1,14 @@
 #include <stdio.h>
 #include "sort.h"
 
+/**
+ * selection_sort - function that sort an array of integers
+ *
+ * @array: List of integers
+ * @size: Lenght
+ * Return: None
+ */
+
 void selection_sort(int *array, size_t size)
 {
 	size_t i, j, var;
