@@ -20,4 +20,9 @@ void print_list(const listint_t *list);
 
 /*task 1*/
 void bubble_sort(int *array, size_t size);
+
+/*task 2*/
+void selection_sort(int *array, size_t size);
+
+/*task 3*/
 #endif
